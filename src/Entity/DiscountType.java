@@ -18,7 +18,7 @@ import javax.persistence.InheritanceType;
  * @author Steffen
  */
 @Entity
-@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@Inheritance(strategy = InheritanceType.JOINED)
 public class DiscountType implements Serializable {
 
     private static final long serialVersionUID = 1L;
